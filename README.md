@@ -3,6 +3,15 @@ We have used pure blockchain Technology to make our application Decentralized an
 Also we have used Solidity and javaScript to build this Applicaton .
 
 
+Steps 
+Setting up the development environment
+Creating a Truffle project using a Truffle Box
+Writing the smart contract
+Compiling and migrating the smart contract
+Testing the smart contract
+Creating a user interface to interact with the smart contract
+Interacting with the dapp in a browser
+
 ![image](https://user-images.githubusercontent.com/96643131/226112034-ac727029-5457-4f5f-bec9-fa9fdbe49d9e.png)
 
 
