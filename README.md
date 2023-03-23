@@ -17,4 +17,5 @@ Interacting with the dapp in a browser
 
 
 User Interface 
-![image](https://user-images.githubusercontent.com/96643131/226112167-e77dbb80-7be7-4dde-8e6d-7ce552f3f66c.png)
+![image](https://user-images.githubusercontent.com/96643131/227122175-b8f46e63-c650-4f17-b5e1-93627d9f5b99.png)
+
