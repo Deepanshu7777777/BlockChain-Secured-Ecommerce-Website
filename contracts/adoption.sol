@@ -99,7 +99,7 @@ function updatePetName(uint petId, string memory newType) public {          //tw
 // The function deletes the pet's address from the adopters array, 
 // deletes the Pet struct from the pets array, 
 // Note that deleting an element from an array in Solidity does not actually remove the element from the array,
- //but instead sets its value to the default value for its type (e.g., 0 for integers, false for booleans, address(0) for addresses, etc.).
+ //but instead sets its value to the default value for its type(e.g.,, 0 for integers, false for booleans, address(0) for addresses, etc.).
    function deletePet(uint petId) public {
     require(msg.sender == adopters[petId], "Only the pet owner can delete the pet");
     delete adopters[petId];
