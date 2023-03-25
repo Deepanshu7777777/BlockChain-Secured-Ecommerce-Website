@@ -34,7 +34,7 @@ This Blockchain Project technology is a powerful tool for securing data storage,
 
 
 
-#How to use?
+# How to use?
 
 Visit the website and Explore E-commerce products.
 Register with a valid email ID, password .
@@ -46,7 +46,7 @@ Click on Purchase and do Transaction.
 
 
 
-#Register
+# Register
 
 1. Select Sign in option on top Menu & sign in by Mail or Phone number.
 2. For Transctions -> Connect Ethereum Wallet and click on Purchase Item.
@@ -69,7 +69,7 @@ You are Signed In.
 
 
 
-Dependencies
+# Dependencies
 The project needs the following installations
 
 npm
