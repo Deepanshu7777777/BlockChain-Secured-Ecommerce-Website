@@ -21,6 +21,83 @@ The project is a blockchain-based platform for online shopping lovers to create,
 
 
 # Usage
+This Blockchain Project technology is a powerful tool for securing data storage, verifying transactions, and creating automated agreements. This website helps in creating feedback and providing E-commerce service to users by proving features as  selling and purchasing.  It allows for decentralized networks, transparent transactions, and even asset tokenization. 
+
+#How to use?
+
+Visit the website and Explore E-commerce products.
+Register with a valid email ID, password .
+Connect Etherium Account & wallet which can be used later for recognition.
+Click on Purchase and do Transaction.
+
+
+#Register
+
+1. Select Sign in option on top Menu & sign in by Mail or Phone number.
+2. For Transctions -> Connect Ethereum Wallet and click on Purchase Item.
+
+
+# Sign In
+
+Input email ID or Phone no.
+Input password
+Click on Send OTP to verify 
+verify OTP AND THATS ALL
+You are Signed In. 
+
+
+Dependencies
+The project needs the following installations
+
+npm
+node js
+react js
+Ethereum 
+Truffle 
+Ganache
+Vs code Editor or choose any Another Editor.
+
+
+# Parts of the project
+There are three parts in the project
+
+Breakdown of the different parts of  blockchain project:
+Frontend: The frontend of the project is developed using Html, Css, Javascript. This is the client-side of the project that users can see and interact with.
+
+Backend: The backend of the project is developed using Solidity.
+
+Solidity Smart Contracts: Project uses Solidity smart contracts to manage the logic and storage of the platform. The smart contracts handle the buying and selling of products on the blockchain.
+
+
+# How to run?
+
+Clone the repository git clone https://github.com/Deepanshu7777777/BlockChain-Secured-Pet-Website.git
+
+Open Terminal in Code Editor.
+
+Install Node.js , Truffle , Ganache.
+
+Run cmmd -> npm run dev
+The above command will lead to automatically Display the Website .
+
+Once all the installations are done:
+
+**** For Transaction -> Ethereum Wallet is required , if you don't have then make it.****
+Once, all the three repositories are up and running:
+The Website will run on local Host 3000
+
+
+
+# Running the project
+
+User Interface 
+![image](https://user-images.githubusercontent.com/96643131/227122175-b8f46e63-c650-4f17-b5e1-93627d9f5b99.png)
+
+![image](https://user-images.githubusercontent.com/96643131/227122675-67a2f137-f78e-41f7-a63d-8e1213199cc6.png)
+
+![image](https://user-images.githubusercontent.com/96643131/227122744-187eb0f2-85c1-4bb1-b695-62badfe9acb6.png)
+
+///////
 
 Steps 
 Setting up the development environment
@@ -33,11 +110,3 @@ Interacting with the dapp in a browser
 
 ![image](https://user-images.githubusercontent.com/96643131/226112034-ac727029-5457-4f5f-bec9-fa9fdbe49d9e.png)
 
-
-
-User Interface 
-![image](https://user-images.githubusercontent.com/96643131/227122175-b8f46e63-c650-4f17-b5e1-93627d9f5b99.png)
-
-![image](https://user-images.githubusercontent.com/96643131/227122675-67a2f137-f78e-41f7-a63d-8e1213199cc6.png)
-
-![image](https://user-images.githubusercontent.com/96643131/227122744-187eb0f2-85c1-4bb1-b695-62badfe9acb6.png)
