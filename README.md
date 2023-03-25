@@ -1,6 +1,7 @@
 # BlockChain-Secured-Pet-Website
 We have used pure blockchain Technology to make our application Decentralized and Secure. In this application a user can interact with User interface to buy Products From  Ethereum  Wallet .
 Also we have used Solidity and javaScript to build this Applicaton .
+This README file provides instructions for installing and running the project, as well as an overview of its file structure and variable naming conventions.
 
 
 Steps 
