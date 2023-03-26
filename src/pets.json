@@ -7,14 +7,7 @@
     "breed": "Kids Wear",
     "location": "Lisco, Alabama"
   },
-  {
-    "id": 1,
-    "name": "Kids Wear Party ",
-    "picture": "images/new.jpeg",
-    "age": 3,
-    "breed": "Kids Wear",
-    "location": "Tooleville, West Virginia"
-  },
+  
   {
     "id": 2,
     "name": "Women Long Coat",
@@ -30,6 +23,14 @@
     "age": 2,
     "breed": "Mens Shirt",
     "location": "Camas, Pennsylvania"
+  },
+  {
+    "id": 1,
+    "name": "Kids Wear Party ",
+    "picture": "images/new.jpeg",
+    "age": 3,
+    "breed": "Kids Wear",
+    "location": "Tooleville, West Virginia"
   },
   {
     "id": 4,
@@ -65,10 +66,10 @@
   },
   {
     "id": 8,
-    "name": "Women Home Dress",
+    "name": "Grocery",
     "picture": "images/french-bulldog.jpeg",
     "age": 2,
-    "breed": "Women Wear",
+    "breed": "Food Items",
     "location": "Honolulu, Hawaii"
   },
   {
@@ -97,10 +98,10 @@
   },
   {
     "id": 12,
-    "name": "Women Inner Wears",
-    "picture": "images/french-bulldog.jpeg",
+    "name": "Digital Devices",
+    "picture": "images/5.jpeg",
     "age": 3,
-    "breed": "Women Wear",
+    "breed": "Electronics Items",
     "location": "Kingstowne, Nevada"
   },
   {
