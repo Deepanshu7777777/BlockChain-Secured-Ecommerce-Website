@@ -1,130 +1,131 @@
 [
   {
     "id": 0,
-    "name": "Frieda",
+    "name": "Kids Wear U.S. POLO ASSN.",
     "picture": "images/scottish-terrier.jpeg",
     "age": 3,
-    "breed": "Scottish Terrier",
+    "breed": "Kids Wear",
     "location": "Lisco, Alabama"
   },
-  {
-    "id": 1,
-    "name": "Gina",
-    "picture": "images/scottish-terrier.jpeg",
-    "age": 3,
-    "breed": "Scottish Terrier",
-    "location": "Tooleville, West Virginia"
-  },
+  
   {
     "id": 2,
-    "name": "Collins",
-    "picture": "images/french-bulldog.jpeg",
+    "name": "Women Long Coat",
+    "picture": "images/1.jpeg",
     "age": 2,
-    "breed": "French Bulldog",
+    "breed": "Women Wear",
     "location": "Freeburn, Idaho"
   },
   {
     "id": 3,
-    "name": "Melissa",
-    "picture": "images/boxer.jpeg",
+    "name": "Mens Shirt Straight",
+    "picture": "images/m1.jpeg",
     "age": 2,
-    "breed": "Boxer",
+    "breed": "Mens Shirt",
     "location": "Camas, Pennsylvania"
   },
   {
+    "id": 1,
+    "name": "Kids Wear Party ",
+    "picture": "images/new.jpeg",
+    "age": 3,
+    "breed": "Kids Wear",
+    "location": "Tooleville, West Virginia"
+  },
+  {
     "id": 4,
-    "name": "Jeanine",
-    "picture": "images/french-bulldog.jpeg",
+    "name": "Women Short Clothes",
+    "picture": "images/2.jpeg",
     "age": 2,
-    "breed": "French Bulldog",
+    "breed": "Women Wear",
     "location": "Gerber, South Dakota"
   },
   {
     "id": 5,
-    "name": "Elvia",
-    "picture": "images/french-bulldog.jpeg",
+    "name": "Women Party Wears",
+    "picture": "images/4.jpeg",
     "age": 3,
-    "breed": "French Bulldog",
+    "breed": "Women Wear",
     "location": "Innsbrook, Illinois"
   },
   {
     "id": 6,
-    "name": "Latisha",
+    "name": "Formal Shoes",
     "picture": "images/golden-retriever.jpeg",
     "age": 3,
-    "breed": "Golden Retriever",
+    "breed": "Black Shoe",
     "location": "Soudan, Louisiana"
   },
   {
     "id": 7,
-    "name": "Coleman",
-    "picture": "images/golden-retriever.jpeg",
+    "name": "Party wear Shoes",
+    "picture": "images/s1.jpeg",
     "age": 3,
-    "breed": "Golden Retriever",
+    "breed": "Black Shoe",
     "location": "Jacksonwald, Palau"
   },
   {
     "id": 8,
-    "name": "Nichole",
+    "name": "Grocery",
     "picture": "images/french-bulldog.jpeg",
     "age": 2,
-    "breed": "French Bulldog",
+    "breed": "Food Items",
     "location": "Honolulu, Hawaii"
   },
   {
     "id": 9,
-    "name": "Fran",
+    "name": "Mens Party Wear",
     "picture": "images/boxer.jpeg",
     "age": 3,
-    "breed": "Boxer",
+    "breed": "Mens Fancy Clothes",
     "location": "Matheny, Utah"
   },
   {
     "id": 10,
-    "name": "Leonor",
-    "picture": "images/boxer.jpeg",
+    "name": "Mens Home Clothes",
+    "picture": "images/h1.jpeg",
     "age": 2,
-    "breed": "Boxer",
+    "breed": "Mens Home Dress",
     "location": "Tyhee, Indiana"
   },
   {
     "id": 11,
-    "name": "Dean",
+    "name": "Kids Wear Collar",
     "picture": "images/scottish-terrier.jpeg",
     "age": 3,
-    "breed": "Scottish Terrier",
+    "breed": "Kids Wear",
     "location": "Windsor, Montana"
   },
   {
     "id": 12,
-    "name": "Stevenson",
-    "picture": "images/french-bulldog.jpeg",
+    "name": "Digital Devices",
+    "picture": "images/5.jpeg",
     "age": 3,
-    "breed": "French Bulldog",
+    "breed": "Electronics Items",
     "location": "Kingstowne, Nevada"
   },
   {
     "id": 13,
-    "name": "Kristina",
-    "picture": "images/golden-retriever.jpeg",
+    "name": "Sports Wear",
+    "picture": "images/downloaddd.jpeg",
     "age": 4,
-    "breed": "Golden Retriever",
+    "breed": "White Sports Shoe",
     "location": "Sultana, Massachusetts"
   },
   {
     "id": 14,
-    "name": "Ethel",
-    "picture": "images/golden-retriever.jpeg",
+    "name": "Ethenic Shoes",
+    "picture": "images/downloadd.jpeg",
     "age": 2,
-    "breed": "Golden Retriever",
+    "breed": "Ethenic Shoe",
     "location": "Broadlands, Oregon"
   },
   {
     "id": 15,
-    "name": "Terry",
-    "picture": "images/golden-retriever.jpeg",
-    "age": 2,
-    "breed": "Golden Retriever",
+    "name": "Shoes",
+    "picture": "images/download.jpeg",
+    "Colour": 2,  
+    "breed": "Black Leather Shoes",
     "location": "Dawn, Wisconsin"
   }
 ]
