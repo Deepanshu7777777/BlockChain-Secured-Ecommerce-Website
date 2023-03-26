@@ -11,15 +11,31 @@ This README file provides instructions for installing and running the project, a
 
 
 # Table of Contents
+
 Description.
+
+Steps To make Project
+
 Usage.
+
 How to use?
+
+Register.
+
+Sign In.
+
 Dependencies.
+
 Parts of the project.
+
 How to run?.
+
 Packages Used.
+
 Deployed Website User Interface.
+
 Challenges Comes.
+
 Future prospects of the project.
 
 
@@ -37,13 +53,20 @@ I have developed a decentralized web application using the Ethereum blockchain, 
 The project is a blockchain-based platform for online shopping lovers to create, trade, and collect digital items using non-fungible tokens (NFTs). The platform is built on the Ethereum blockchain, and uses Solidity for smart contract development, along with web3.js for the frontend interface.
 
 # Steps To make Project 
-Setting up the development environment
-Creating a Truffle project using a Truffle Box
-Writing the smart contract
-Compiling and migrating the smart contract
-Testing the smart contract
-Creating a user interface to interact with the smart contract
-Interacting with the dapp in a browser
+
+Setting up the development environment.
+
+Creating a Truffle project using a Truffle Box.
+
+Writing the smart contract.
+
+Compiling and migrating the smart contract.
+
+Testing the smart contract.
+
+Creating a user interface to interact with the smart contract.
+
+Interacting with the dapp in a browser.
 
 
 
@@ -57,8 +80,11 @@ This Blockchain Project technology is a powerful tool for securing data storage,
 # How to use?
 
 Visit the website and Explore E-commerce products.
+
 Register with a valid email ID, password .
+
 Connect Etherium Account & wallet which can be used later for recognition.
+
 Click on Purchase and do Transaction.
 
 
@@ -72,7 +98,8 @@ Click on Purchase and do Transaction.
 # Register
 
 1. Select Sign in option on top Menu & sign in by Mail or Phone number.
-2. For Transctions -> Connect Ethereum Wallet and click on Purchase Item.
+
+3. For Transctions -> Connect Ethereum Wallet and click on Purchase Item.
 
 
 ![image](https://user-images.githubusercontent.com/96643131/227766882-5207dfb3-e876-4448-b3b6-7551cb9219df.png)
@@ -83,9 +110,13 @@ Click on Purchase and do Transaction.
 # Sign In
 
 Input email ID or Phone no.
-Input password
-Click on Send OTP to verify 
-verify OTP AND THATS ALL
+
+Input password.
+
+Click on Send OTP to verify .
+
+verify OTP AND THATS ALL.
+
 You are Signed In. 
 
 
@@ -98,11 +129,17 @@ You are Signed In.
 The project needs the following installations
 
 npm
+
 node js
+
 react js
+
 Ethereum 
+
 Truffle 
+
 Ganache
+
 Vs code Editor or choose any Another Editor.
 
 
