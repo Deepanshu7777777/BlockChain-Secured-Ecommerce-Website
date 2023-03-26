@@ -18,9 +18,9 @@ Dependencies.
 Parts of the project.
 How to run?.
 Packages Used.
-Acknowledgements.
-Screenshots of the website.
-
+Deployed Website User Interface.
+Challenges Comes.
+Future prospects of the project.
 
 
 
