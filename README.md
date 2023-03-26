@@ -6,7 +6,11 @@ Also we have used Solidity and javaScript to build this Applicaton .
 This README file provides instructions for installing and running the project, as well as an overview of its file structure and variable naming conventions.
 
 
+
+
 ![how_blockchain_works](https://user-images.githubusercontent.com/96643131/227766548-2a7ce515-672f-441c-b3ad-da2dcc4480c5.jpg)
+
+
 
 
 
@@ -30,7 +34,9 @@ Parts of the project.
 
 How to run?.
 
-Packages Used.
+Truffle migrate .
+
+Unit Tests/ Testing Results 
 
 Deployed Website User Interface.
 
@@ -52,6 +58,9 @@ I have developed a decentralized web application using the Ethereum blockchain, 
 
 The project is a blockchain-based platform for online shopping lovers to create, trade, and collect digital items using non-fungible tokens (NFTs). The platform is built on the Ethereum blockchain, and uses Solidity for smart contract development, along with web3.js for the frontend interface.
 
+
+
+
 # Steps To make Project 
 
 Setting up the development environment.
@@ -67,6 +76,8 @@ Testing the smart contract.
 Creating a user interface to interact with the smart contract.
 
 Interacting with the dapp in a browser.
+
+
 
 
 
@@ -189,8 +200,42 @@ The Website will run on local Host 3000
 
 
 
+# Truffle migrate (Screenshots).
 
-# Running the project
+
+![image](https://user-images.githubusercontent.com/96643131/227769428-daa8ecdb-f280-49a5-bc1b-9386e9117cd9.png)
+
+
+![image](https://user-images.githubusercontent.com/96643131/227769438-71f5d0e7-6f2e-42b9-a91b-5c6c0f71a017.png)
+
+
+Transaction Details 
+
+![image](https://user-images.githubusercontent.com/96643131/227769448-f7aae8e5-46d6-4680-9c6b-a3f53465dc48.png)
+
+
+
+
+# Unit Tests/ Testing Results 
+
+
+If Successful Testing Occurs :
+
+![image](https://user-images.githubusercontent.com/96643131/227769500-a44e0fbe-ffbe-49bb-83e9-cd215ff16961.png)
+
+
+If Test Case FAils  :
+
+
+
+![1](https://user-images.githubusercontent.com/96643131/227769689-fbc6afa5-3124-442e-b3cc-d4977b45df9a.png)
+
+
+
+
+
+
+# Deployed Website User Interface/ Running of the Project .
 
 
 
@@ -214,11 +259,15 @@ User Interface
 
 
 
+
+
 # Challenges Comes :
 
 1. Dealing with the complexities of smart contracts and ensuring their security. To address this, it is important to have a strong understanding of Solidity and best practices for smart contract development.
 
 2.•	Another potential challenge is integrating the blockchain technology with front-end user interfaces, such as web applications. This requires knowledge of various technologies such as JavaScript, React, and web3.js.
+
+
 
 
 # Future prospects of the project.
