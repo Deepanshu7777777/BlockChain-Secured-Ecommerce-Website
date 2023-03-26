@@ -20,18 +20,21 @@
   <body>
     
     <style>
+      /* style for the menu */
+      /* margin outside space
+       padding  inside space*/
       ul {
         list-style-type: none;
-        margin: 0;
-        padding: 0;
+        margin: 0;   
+        padding: 0;   
         overflow: hidden;
         background-color: #bc2c19;
       }
-      
+      /* style for the menu items */
       li {
         float: left;
       }
-      
+       /* style for the menu links */
       li a {
         display: block;
         color: white;
@@ -47,18 +50,85 @@
       .active {
         background-color: #33b12c;
       }
+      ul{
+            list-style-type: none;
+            padding:0px;
+            margin:0px;
+        }
+        ul li{
+           float:left; 
+          
+          
+        }
+        ul li ul li{
+            display:none;
+        }
+        ul li:hover ul li{
+            display:block;
+        }
+        ul li:hover{
+            background-color: rgb(11, 12, 13);
+        }
+        ul li a{
+           text-decoration: none;
+        }
+
+        .feedback-form {
+         background-color: rgb(219, 219, 224);
+        }
       </style>
       </head>
       <body>
       
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Top Rated</a></li>
-        <li><a href="#news">Biggest Deals</a></li>
-        <li><a href="#contact">Sign up </a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li style="float:right"><a class="active" href="#about">About</a></li>
+        <li><a href="https://blockchain-secured-ecommerce-site.netlify.app/">Home</a>
+          <ul class="submenu">
+            <li><a href="https://alexa.amazon.com/">Digital Content And Devices</a></li>
+            <li><a href="https://www.vijaysales.com/?menu">Shop By Category</a></li>
+            <li><a href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav">Programs & MiniTv</a></li>
+          </ul>
+        </li>
+        <li><a href="#news">News</a>
+          <ul class="submenu">
+            <li><a href="https://www.theguardian.com/us-news">News Us</a></li>
+            <li><a href="https://www.bbc.com/news/world-us-canada-65047438">News Canada</a></li>
+            <li><a href="https://www.gadgets360.com/news">News Tech</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Top Rated</a>
+        <ul class="submenu">
+          <li><a href="https://www.amazon.in/gp/bestsellers/?ref_=nav_cs_bestsellers">Highest Rated Items</a></li>
+          
+        </ul>
+
+        </li>
+        <li><a href="https://www.amazon.in/deals?ref_=nav_cs_gb">Biggest Deals</a>
+          <ul class="submenu">
+            <li><a href="https://www.vijaysales.com/search/iphone%2014">Mobiles</a></li>
+            <li><a href="https://www.vijaysales.com/laptop-and-printer/laptops">Laptops</a></li>
+            <li><a href="https://www.bigbasket.com/">Groceries</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Sign up </a>
+          <ul class="submenu">
+            <li><a href="https://www.vijaysales.com/login.aspx">With Email</a></li>
+            <li><a href="https://www.vijaysales.com/login.aspx">With Phone</a></li>
+            
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a>
+          <ul class="submenu">
+            <li><a href="https://www.vijaysales.com/contact-us">Email & Address</a></li>
+            <li><a href="#https://www.vijaysales.com/contact-us">Phone & Address</a></li>
+            
+          </ul>
+        </li>
+        <li style="float:right"><a class="active" href="#about">About</a>
+          <ul class="submenu">
+            <li><a href="https://www.vijaysales.com/about-us">About</a></li>
+            
+          </ul>
+        </li>
       </ul>
       
     <div class="container">
@@ -100,5 +170,65 @@
     <script src="js/web3.min.js"></script>
     <script src="js/truffle-contract.js"></script>
     <script src="js/app.js"></script>
+
+<h2>FEED BACK FORM</h2>    
+<div class="container">    
+  <form class="feedback-form">    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="fname">First Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="lname">Last Name</label>    
+      </div>    
+      <div class="col-75">    
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">    
+      </div>    
+    </div>    
+    <div class="row">    
+        <div class="col-25">    
+          <label for="email">Mail Id</label>    
+        </div>    
+        <div class="col-75">    
+          <input type="email" id="email" name="mailid" placeholder="Your mail id..">    
+        </div>    
+      </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="country">Country</label>    
+      </div>    
+      <div class="col-75">    
+        <select id="country" name="country">    
+          <option value="none">Select Country</option>    
+          <option value="australia">Australia</option>    
+          <option value="canada">Canada</option>    
+          <option value="usa">USA</option>    
+          <option value="russia">Russia</option>    
+          <option value="japan">Japan</option>    
+          <option value="india">India</option>    
+          <option value="china">Egypt</option>    
+        </select>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <div class="col-25">    
+        <label for="feed_back">Feed Back</label>    
+      </div>    
+      <div class="col-75">    
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>    
+      </div>    
+    </div>    
+    <div class="row">    
+      <input type="submit" value="Submit">    
+    </div>    
+  </form>    
+</div>
+
+    
   </body>
 </html>
