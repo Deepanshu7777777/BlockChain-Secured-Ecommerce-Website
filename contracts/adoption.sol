@@ -97,6 +97,6 @@ function updateitemName(uint itemId, string memory newType) public {          //
    function deleteItem(uint itemId) public {
     require(msg.sender == adopters[itemId], "Only the item owner can delete the item");
     delete adopters[itemId];
-    delete pets[itemId];
+    delete items[itemId];
     
 }
