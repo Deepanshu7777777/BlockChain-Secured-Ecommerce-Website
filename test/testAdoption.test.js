@@ -9,27 +9,27 @@ contract("Adoption",(accounts) =>{
         adoption = await Adoption.deployed();   
     });
 
-    //here adopt a item/pet with id 8 & assign it to the first account within the test account on the network
+    //here adopt a item with id 8 & assign it to the first account within the test account on the network
    
-    describe("adoption a pet and retrieving account addresses", async() =>{    //async allow the fucntion to return a promise 
-        before("adopt a pet using account[0]", async () =>{
+    describe("adoption a item and retrieving account addresses", async() =>{    //async allow the fucntion to return a promise 
+        before("adopt a item using account[0]", async () =>{
             await adoption.adopt(8,{from:accounts[0]});
             expectedAdopter = accounts[0];
 
         });
 
-        // We call smart contract method adopters to see what address adopted with pet id 8.
-        it ("can fetch the address of an owner by pet id", async () =>{   //
+        // We call smart contract method adopters to see what address adopted with  item Id 8.
+        it ("can fetch the address of an owner by item id", async () =>{   //
             const adopter = await adoption.adopters(8);
           
-            assert.equal(adopter,expertedAdopter,"this owner of the adopter pet should be the first account.");
+            assert.equal(adopter,expertedAdopter,"this owner of the adopter item should be the first account.");
 
         });
 
         //comparing contract address to the expected address we expect to find 
-        it("can fetch the collection of all pet owners addresses", async()=>{
+        it("can fetch the collection of all item owners addresses", async()=>{
             const adopters= await adoption.getAdopters();
-            assert.equal(adopters[8],expectedAdopter,"The owner of the adopted petshould be in the collection.")
+            assert.equal(adopters[8],expectedAdopter,"The owner of the adopted item should be in the collection.")
 
         });
     });
