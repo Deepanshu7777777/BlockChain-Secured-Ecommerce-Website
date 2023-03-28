@@ -221,7 +221,8 @@ Transaction Details
 
 If Successful Testing Occurs :
 
-![image](https://user-images.githubusercontent.com/96643131/227769500-a44e0fbe-ffbe-49bb-83e9-cd215ff16961.png)
+![227769500-a44e0fbe-ffbe-49bb-83e9-cd215ff16961](https://user-images.githubusercontent.com/96643131/228257212-34f55f6f-d0cc-42f5-95e5-1cd17fe2359d.png)
+
 
 
 If Test Case FAils  :
