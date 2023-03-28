@@ -8,7 +8,7 @@ contract Adoption{                  //it is a stactical type language, meaning d
                                      
 
 //Creating function to fill the address in adopters array 
-    function adopt(uint itemId) public returns(uint){ // taking pet id and return it also 
+    function adopt(uint itemId) public returns(uint){ // taking item id and return it also 
         require(itemId >= 0 && itemId <=15);           // checking if item id is in range    of our adopters array // require is condion 
 
         adopters[itemId]= msg.sender; 
@@ -85,9 +85,9 @@ function additem() public onlyOwner {
 
 item[] public items;      //This declares a dynamic array called items that stores instances of the item struct, accessable form outside the contract.
 
-function updateitemName(uint itemId, string memory newType) public {          //two arguments: itemId and newType. The function updates the Type property of the item struct at the specified petId index in the pets array with the new value of newType.   //The memory keyword is used to specify that newType should be stored in memory rather than storage. This is because newType is a function argument and is only needed for the duration of the function call, whereas storage variables persist beyond the lifetime of the function.
+function updateitemName(uint itemId, string memory newType) public {          //two arguments: itemId and newType. The function updates the Type property of the item struct at the specified itemId index in the items array with the new value of newType.   //The memory keyword is used to specify that newType should be stored in memory rather than storage. This is because newType is a function argument and is only needed for the duration of the function call, whereas storage variables persist beyond the lifetime of the function.
     require(msg.sender == adopters[itemId], "Only the item owner can update the items name");
-    pets[itemId].Type = newType;
+    items[itemId].Type = newType;
 }
 
 
